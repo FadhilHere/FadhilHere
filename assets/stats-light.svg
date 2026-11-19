@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="GPA 3.94, 1 first-author paper, 4 engineering roles, Rp 5M+ live transactions">
+  <style>
+    .d { font-family: Anton, Impact, 'Arial Narrow Bold', 'Arial Black', sans-serif; font-weight: 900; }
+    .t { font-family: 'Plus Jakarta Sans', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-weight: 700; }
+    .pop { animation: pop 3.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .p2 { animation-delay: -0.9s; } .p3 { animation-delay: -1.8s; } .p4 { animation-delay: -2.7s; }
+    @keyframes pop { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+  </style>
+  <g class="pop">
+    <rect x="22" y="22" width="270" height="112" rx="16" fill="#111"/>
+    <rect x="14" y="14" width="270" height="112" rx="16" fill="#FFD166" stroke="#111" stroke-width="4"/>
+    <text x="149" y="76" class="d" font-size="46" fill="#111" text-anchor="middle">3.94</text>
+    <text x="149" y="106" class="t" font-size="17" fill="#111" text-anchor="middle">GPA · Information Systems</text>
+  </g>
+  <g class="pop p2">
+    <rect x="320" y="22" width="270" height="112" rx="16" fill="#111"/>
+    <rect x="312" y="14" width="270" height="112" rx="16" fill="#8BE0A4" stroke="#111" stroke-width="4"/>
+    <text x="447" y="76" class="d" font-size="46" fill="#111" text-anchor="middle">1st-AUTHOR</text>
+    <text x="447" y="106" class="t" font-size="17" fill="#111" text-anchor="middle">Journal paper · TEKNOSI</text>
+  </g>
+  <g class="pop p3">
+    <rect x="618" y="22" width="270" height="112" rx="16" fill="#111"/>
+    <rect x="610" y="14" width="270" height="112" rx="16" fill="#7EC8FF" stroke="#111" stroke-width="4"/>
+    <text x="745" y="76" class="d" font-size="46" fill="#111" text-anchor="middle">4 ROLES</text>
+    <text x="745" y="106" class="t" font-size="17" fill="#111" text-anchor="middle">IATMI · PCR · Pertamina · Assist</text>
+  </g>
+  <g class="pop p4">
+    <rect x="916" y="22" width="270" height="112" rx="16" fill="#111"/>
+    <rect x="908" y="14" width="270" height="112" rx="16" fill="#FF8FA3" stroke="#111" stroke-width="4"/>
+    <text x="1043" y="76" class="d" font-size="46" fill="#111" text-anchor="middle">RP 5M+</text>
+    <text x="1043" y="106" class="t" font-size="17" fill="#111" text-anchor="middle">Live transactions · Expo</text>
+  </g>
+</svg>

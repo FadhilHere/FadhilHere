@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Fadhil Parmata — Full-stack Engineer">
+  <style>
+    .ink { fill: #111111; }
+    .paper { fill: #FFF6E5; }
+    .display { font-family: Anton, Impact, 'Arial Narrow Bold', 'Arial Black', sans-serif; font-weight: 900; letter-spacing: 1px; }
+    .text { font-family: 'Plus Jakarta Sans', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+    .float1 { animation: float 4.5s ease-in-out infinite; }
+    .float2 { animation: float 5.2s ease-in-out -1.3s infinite; }
+    .float3 { animation: float 4.8s ease-in-out -2.4s infinite; }
+    .float4 { animation: float 5.6s ease-in-out -0.7s infinite; }
+    .spin { transform-origin: 1086px 86px; animation: spin 14s linear infinite; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <!-- card with hard shadow -->
+  <rect x="18" y="18" width="1170" height="310" rx="22" class="ink"/>
+  <rect x="8" y="8" width="1170" height="310" rx="22" class="paper" stroke="#111" stroke-width="4"/>
+
+  <!-- dotted grid -->
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#111" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="10" width="1166" height="306" rx="20" fill="url(#dots)"/>
+
+  <!-- window bar -->
+  <line x1="8" y1="58" x2="1178" y2="58" stroke="#111" stroke-width="4"/>
+  <circle cx="44" cy="33" r="9" fill="#FF8FA3" stroke="#111" stroke-width="3"/>
+  <circle cx="72" cy="33" r="9" fill="#FFD166" stroke="#111" stroke-width="3"/>
+  <circle cx="100" cy="33" r="9" fill="#8BE0A4" stroke="#111" stroke-width="3"/>
+  <text x="130" y="40" class="mono" font-size="17" fill="#111">~/fadhil-parmata — riau, indonesia</text>
+
+  <!-- greeting -->
+  <g>
+    <text x="56" y="112" class="mono" font-size="22" fill="#111">$ whoami<tspan class="blink">▌</tspan></text>
+  </g>
+
+  <!-- name -->
+  <g>
+    <text x="62" y="208" class="display" font-size="92" fill="#111" opacity="0.95">FADHIL PARMATA</text>
+    <text x="56" y="202" class="display" font-size="92" fill="#7C6CF2" stroke="#111" stroke-width="3" paint-order="stroke">FADHIL PARMATA</text>
+  </g>
+
+  <!-- role -->
+  <g>
+    <text x="58" y="252" class="text" font-size="26" font-weight="800" fill="#111">Full-stack Engineer</text>
+    <text x="58" y="284" class="text" font-size="18" fill="#333">Ships end-to-end: requirements → system design → production servers, across web, data &amp; AI.</text>
+  </g>
+
+  <!-- stickers -->
+  <g class="float1">
+    <rect x="848" y="108" width="150" height="46" rx="10" fill="#111"/>
+    <rect x="842" y="102" width="150" height="46" rx="10" fill="#FFD166" stroke="#111" stroke-width="3"/>
+    <text x="917" y="132" class="text" font-size="19" font-weight="800" fill="#111" text-anchor="middle">Full-stack</text>
+  </g>
+  <g class="float2">
+    <rect x="1018" y="170" width="132" height="46" rx="10" fill="#111"/>
+    <rect x="1012" y="164" width="132" height="46" rx="10" fill="#8BE0A4" stroke="#111" stroke-width="3"/>
+    <text x="1078" y="194" class="text" font-size="19" font-weight="800" fill="#111" text-anchor="middle">AI / ML</text>
+  </g>
+  <g class="float3">
+    <rect x="874" y="196" width="138" height="46" rx="10" fill="#111"/>
+    <rect x="868" y="190" width="138" height="46" rx="10" fill="#7EC8FF" stroke="#111" stroke-width="3"/>
+    <text x="937" y="220" class="text" font-size="19" font-weight="800" fill="#111" text-anchor="middle">Data &amp; BI</text>
+  </g>
+  <g class="float4">
+    <rect x="970" y="254" width="124" height="46" rx="10" fill="#111"/>
+    <rect x="964" y="248" width="124" height="46" rx="10" fill="#FF8FA3" stroke="#111" stroke-width="3"/>
+    <text x="1026" y="278" class="text" font-size="19" font-weight="800" fill="#111" text-anchor="middle">UI / UX</text>
+  </g>
+
+  <!-- rotating star -->
+  <g class="spin">
+    <path d="M1086 54 L1094 78 L1118 86 L1094 94 L1086 118 L1078 94 L1054 86 L1078 78 Z" fill="#FFD166" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>
