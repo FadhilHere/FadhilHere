@@ -20,6 +20,7 @@ architecture, documentation and handing over things that just keep working.
 - 🎓 **Information Systems @ Politeknik Caltex Riau** — GPA 3.94 / 4.00
 - 📄 First-author paper on a user-centered BI dashboard for higher-education quality assurance ([TEKNOSI 12(2)](https://doi.org/10.25077/TEKNOSI.v12i2.2026.377-385))
 - 🤖 Daily driver: an AI-augmented workflow (Claude Code, Copilot) to ship multi-developer scope solo
+- 💬 **Open to freelance projects** — web apps, dashboards and data/ML tools
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
@@ -131,4 +132,4 @@ then implemented natively on Android.
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/FadhilHere/FadhilHere/output/github-snake.svg" width="100%">
 </picture>
 
-<p align="center"><sub>Want to build something together? Say hi on <a href="https://www.linkedin.com/in/fadhil-parmata-2599a0310">LinkedIn</a> or check out <a href="https://fadhilparmata.vercel.app">my portfolio</a>.</sub></p>
+<p align="center"><b>🤝 Open to freelance projects.</b><br><sub>Want to build something together? Say hi on <a href="https://www.linkedin.com/in/fadhil-parmata-2599a0310">LinkedIn</a> or check out <a href="https://fadhilparmata.vercel.app">my portfolio</a>.</sub></p>
